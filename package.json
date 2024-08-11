@@ -17,7 +17,24 @@
         "command": "copilot-depndecies.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "myExtension.sidebarView",
+          "title": "My Sidebar",
+          "icon": "media/icon.png"
+        }
+      ]
+    },
+    "views": {
+      "explorer": [
+        {
+          "id": "myExtension.webviewView",
+          "name": "Webview View"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
